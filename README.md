@@ -19,4 +19,11 @@ use graphql & apollo-server
 
 ## Deploy
 
+- npx prisma migrate save --experimental
+- npx prisma migrate up --experimental
+- npx prisma generate
+
+npx prisma migrate save -n new --experimental && npx prisma migrate up --experimental && npx prisma generate
+
+
     ...
